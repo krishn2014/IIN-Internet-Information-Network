@@ -1,0 +1,15 @@
+<ion-view view-title="{{title}}">
+    <ion-content>
+        <ion-list class="channels" ng-if="playlists.length">
+            <ion-item style="background-color:{{playlist.bgColor}};background-image:url('{{playlist.bgImage}}')" href="#/playlists/{{playlist.title}}/{{playlist.id}}" ng-repeat="playlist in playlists">
+                {{playlist.title}}
+            </ion-item>
+        </ion-list>
+        <div class="list" ng-if="videos.length">
+            <a class="item item-thumbnail-left" href="#/videos/{{video.id}}" ng-repeat="video in videos">
+                <img src="{{video.thumbnail}}">
+                <p>{{video.title}}</p>
+            </a>
+        </div>
+    </ion-content>
+</ion-view>

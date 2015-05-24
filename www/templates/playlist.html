@@ -1,0 +1,13 @@
+<ion-view>
+<ion-nav-title>
+    {{title}}
+</ion-nav-title>
+    <ion-content>
+        <div class="list">
+            <a class="item item-thumbnail-left" href="#/videos/{{video.id}}" ng-repeat="video in videos">
+                <img src="{{video.thumbnail}}">
+                <p>{{video.title}}</p>
+            </a>
+        </div>
+    </ion-content>
+</ion-view>

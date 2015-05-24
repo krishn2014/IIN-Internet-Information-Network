@@ -1,0 +1,90 @@
+/* Empty. Add your own CSS if you like */
+.embed-responsive-item{
+	width: 100%;
+}
+iframe.embed-responsive-item{
+	/*min-height: 350px;*/
+}
+.bar .title{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.channels .item{
+	   border:none;
+			background:#2962FF;
+      background-repeat: repeat;
+}
+.channels .item > a{
+      display: block;
+		  background: transparent;
+			padding:20px 10px;
+			text-align: center;
+			color:#fff;
+			font-size: 1.8em;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+      background-color: rgba(0,0,0,.4); 
+	   
+}
+.item .item-content.activated {
+  border-color: #CCC;
+  background-color: rgba(0,0,0,.6); 
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.12), 0 1px 6px 0 rgba(0,0,0,0.12);
+}
+/*
+.item:nth-child(1)  {
+  background: #1A237E;
+}
+.item:nth-child(1) > a.activated {
+  background-color: #1D288F;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.12), 0 1px 6px 0 rgba(0,0,0,0.12);
+}
+.item:nth-child(2) > a {
+  background: #283593;
+}
+.item:nth-child(2) > a.activated {
+  background-color: #2C3BA3;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.12), 0 1px 6px 0 rgba(0,0,0,0.12);
+}
+.item:nth-child(3) > a {
+  background: #303F9F;
+}
+.item:nth-child(3) > a.activated {
+  background-color: #3545AF;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.12), 0 1px 6px 0 rgba(0,0,0,0.12);
+}
+.item:nth-child(4) > a {
+  background: #3949AB;
+}
+.item:nth-child(4) > a.activated {
+  background-color: #3E50BA;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.12), 0 1px 6px 0 rgba(0,0,0,0.12);
+}
+.item:nth-child(5) > a {
+  background: #3F51B5;
+}
+.item:nth-child(5) > a.activated {
+  background-color: #495BC0;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.12), 0 1px 6px 0 rgba(0,0,0,0.12);
+}
+.item:nth-child(6) > a {
+  background: #5C6BC0;
+}
+.item:nth-child(6) > a.activated {
+  background-color: #6B78C6;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.12), 0 1px 6px 0 rgba(0,0,0,0.12);
+}
+.item:nth-child(7) > a {
+  background: #7986CB;
+}
+.item:nth-child(7) > a.activated {
+  background-color: #8893D1;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.12), 0 1px 6px 0 rgba(0,0,0,0.12);
+}
+.item:nth-child(8) > a {
+  background: #8C9EFF;
+}
+.item:nth-child(8) > a.activated {
+  background-color: #A0AFFF;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.12), 0 1px 6px 0 rgba(0,0,0,0.12);
+}*/

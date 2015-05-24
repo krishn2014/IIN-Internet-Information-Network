@@ -1,0 +1,22 @@
+<ion-view>
+<ion-nav-title>
+    {{video.title}}
+</ion-nav-title>
+    <ion-content>
+        <div class="list card">
+            <div class="item item-avatar">
+                <img src="{{video.thumbnail}}">
+                <h2>{{video.title}}</h2>
+                <p>{{video.createdAt | date}}</p>
+            </div>
+            <div class="item item-body">
+                <iframe class="embed-responsive-item" ng-src="{{video.embedUrl | trusted}}" width="100%" frameborder="0" allowfullscreen></iframe>
+                <p>
+                    <span  class="subdued">{{video.likeCount | number}} Like</span>
+                    <span href="#" class="subdued">{{video.viewCount | number}} Views</span>
+                </p>
+            </div>
+         </div>
+        
+    </ion-content>
+</ion-view>
