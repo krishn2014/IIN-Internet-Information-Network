@@ -18,7 +18,7 @@ angular.module( 'iin', [ 'ionic', 'iin.controllers', 'iin.filters', 'ngCordova' 
             }
             if (  window.AdMob ) {
                 // var admob_key = device.platform == "Android" ? "ANDROID_PUBLISHER_KEY" : "IOS_PUBLISHER_KEY";
-                var bannerID = "ca-app-pub-4163791555615919/4793426186";
+                var bannerID = "PUBLISHER_KEY";
                 var admob = window.AdMob;
                 admob.createBanner( {
                     adId: bannerID,
